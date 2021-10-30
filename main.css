@@ -75,7 +75,7 @@ header nav a:hover{
 }
 
 .parallax{
-  background-image: url(https://images.wallpaperscraft.com/image/single/headphones_audio_black_134032_3840x2160.jpg);
+  background: linear-gradient(rgba(0,0,0.50),rgba(0,0,0,.50)10%), url(https://thumbs.gfycat.com/AdventurousNauticalDoctorfish-size_restricted.gif);
   min-height: 50px;
   background-attachment: fixed;
   background-position: center;
@@ -83,6 +83,53 @@ header nav a:hover{
   background-size: cover;
 }
 
+.trance{
+  color: #ddd;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  justify-content: center;
+  right: 50%;
+  margin-top: 2%;
+
+}
+
+.card-sound{
+  margin: 2%;
+}
+
+.soundcloud{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.ouca-novamente{
+  display: flex;
+  justify-content: center;
+  margin: 5%;
+  color: #fff;
+
+}
+/*Cards*/
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card{
+  display: flex;
+  font-size: 15px;
+  background-color:transparent;
+  color:#fff;
+  border: none;
+}
+
+.btn{
+   color: #fff;
+   background-color: rgba(51, 51, 51);
+   border: none;
+}
 /*REPRODUTOR DE MUSICA*/
 .reprodutor{
   margin: 0;
@@ -171,37 +218,8 @@ transition: .3s ease all;
 .botao-play:hover, .botao-pause:hover, .setas:hover{
   color:rgba(51,51,51);
 }
+
 /*FIM*/
-
-.ouca-novamente{
-  display: flex;
-  justify-content: center;
-  margin-bottom: 60px;
-  color: #fff;
-
-}
-
-/*Cards*/
-.cards{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
-
-.card{
-  display: flex;
-  font-size: 15px;
-  background-color:transparent;
-  color:#fff;
-  border: none;
-}
-
-.btn{
-   color: #fff;
-   background-color: rgba(51, 51, 51);
-   border: none;
-}
-
 .footer{
   padding-top: 1%;
   color: #ddd;
