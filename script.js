@@ -37,6 +37,7 @@ document.querySelector('.play-1').addEventListener('click', tocarMusica);
 document.querySelector('.botao-play').addEventListener('click', tocarMusica);
 
 document.querySelector('.botao-pause').addEventListener('click', pausarMusica);
+document.querySelector('.botao-pause-2').addEventListener('click', pausarMusica);
 
 musica.addEventListener('timeupdate', atualizarBarra);
 
