@@ -1,6 +1,6 @@
 let musicas = [
-  {titulo:'Company', artista:'Justin Bieber', src:'musicas/Company.mp3', img:'https://www.vagalume.com.br/justin-bieber/discografia/purpose.jpg'},
   {titulo:'SICKO MODE', artista:'Travis Scott', src:'musicas/Travis Scott - SICKO MODE (Audio).mp3', img:'https://www.vagalume.com.br/travis-scott/discografia/astroworld.jpg'},
+  {titulo:'Company', artista:'Justin Bieber', src:'musicas/Company.mp3', img:'https://www.vagalume.com.br/justin-bieber/discografia/purpose.jpg'},
   {titulo:'Suit & Tie', artista:'Justin Timberlake', src:'musicas/Justin Timberlake - Suit & Tie (Official Video - Explicit) ft. Jay-Z.mp3', img:'http://3.bp.blogspot.com/-5iGUQ_LlMdY/UVF3LKRLXyI/AAAAAAAAU-g/nkmKt8cqkYA/s1600/The_20_20_Experience_(Deluxe_Version).jpg'},
   {titulo:'777-666', artista:'Matuê', src:'musicas/Matuê - 777-666.mp3', img:'https://www.vagalume.com.br/matue/discografia/maquina-do-tempo-11.jpg'},
   {titulo:'Wonderwall', artista:'Oasis', src:'musicas/Oasis-Wonderwall.mp3', img:'http://crownnote.com/sites/default/files/styles/album_artwork__300x300_/public/imgres_0.jpg?itok=Rm86sjlZ'},
@@ -97,3 +97,4 @@ function segundosParaMinutos(segundos){
   return campoMinutos+':'+campoSegundos; 
 }
 
+/*window.alert ('Olá, mundo!')*/

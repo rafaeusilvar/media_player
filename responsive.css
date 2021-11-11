@@ -14,8 +14,49 @@
 }
 
 @media screen and (min-width:1000px){
-    .descricao{
-        width: 50%;
-    }
-    
+.descricao{
+    width: 50%;
+}
+
+.pace {
+    -webkit-pointer-events: none;
+    pointer-events: none;
+  
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  .pace-inactive {
+    display: none;
+  }
+  
+  .pace .pace-progress {
+    background: #cc3a00;
+    position: fixed;
+    z-index: 2000;
+    top: 0;
+    right: 100%;
+    width: 100%;
+    height: 5px;
+  }
+  
+
+  .col-md-3 {
+    width: 15rem;
+    position: relative;
+  }
+  .col-md-3 .seg {
+    width: 15rem;
+    visibility: hidden;
+    opacity: 0;
+    position:absolute;
+    top:0;
+    left:0;
+  }
+  .col-md-3:hover .seg {
+    visibility: visible;
+    opacity: 1;
+    transition: .3s ease all;
+  }
 }
