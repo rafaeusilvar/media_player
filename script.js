@@ -1,3 +1,24 @@
+function carregar(){
+  var msg = document.getElementById('msg')
+  var img = document.getElementById('imagem')
+  var data = new Date()
+  var hora = data.getHours()
+  
+  //msg.innerHTML = `Agora são ${hora} horas.`
+
+  if (hora >= 0 && hora <12){
+    msg.innerHTML = `Olá, bom-dia. Confira a playlist do momento!`
+    //BOM DIA!
+  } else if (hora >= 12 && hora < 18){
+    msg.innerHTML = `Boa-tarde. Ouça a playlist do momento!`
+    //BOA TARDE!
+  } else if (hora >=19){
+    msg.innerHTML = `Olá, boa-noite. Ouça a playlist do momento!`
+    //BOA NOITE!
+  } 
+  }
+
+
 let musicas = [
   {titulo:'SICKO MODE', artista:'Travis Scott', src:'musicas/Travis Scott - SICKO MODE (Audio).mp3', img:'https://www.vagalume.com.br/travis-scott/discografia/astroworld.jpg'},
   {titulo:'Company', artista:'Justin Bieber', src:'musicas/Company.mp3', img:'https://www.vagalume.com.br/justin-bieber/discografia/purpose.jpg'},
@@ -97,4 +118,4 @@ function segundosParaMinutos(segundos){
   return campoMinutos+':'+campoSegundos; 
 }
 
-/*window.alert ('Olá, mundo!')*/
+/*window.alert ('Olá, mundo!')*/ 

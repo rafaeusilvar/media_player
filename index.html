@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="responsive.css">
     <title>Rafilo</title>
   </head>
-  <body>
+  <body onload="carregar()">
     <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
       <symbol id="home" viewBox="0 0 16 16">
         <path fill-rule="evenodd" d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
@@ -71,7 +71,7 @@
 <main>
     <div class="musica-principal">
       <div class="container">
-            <h3 class="titulo">Ouça a playlist do momento!</h3>
+            <h3 class="titulo" id="msg">Ouça a playlist do momento!</h3>
             <p class="descricao"></p>
             <div class="botoes"> 
               <a href="#"><button role="button" class="botao play-1">
@@ -231,12 +231,21 @@
       <script src="script.js"></script>
   </div>
     <!--FIM REPRODUTOR-->
-    <footer>
-    <div class="flex-container footer">
-          <p>Desenvolvido por: Rafael Silva</p>  
-    </div>
-      </div>
-  </footer>    
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <p class="col-md-4 mb-0 text-muted">&copy; 2021 Company, Inc</p>
+  
+      <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+        <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+      </a>
+  
+      <ul class="nav col-md-4 justify-content-end">
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Início</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Recursos</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Quem somos</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Assinatura</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Suporte</a></li>
+      </ul>
+    </footer>    
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
   <script type="text/javascript" src="pace.min.js"></script>
