@@ -7,13 +7,13 @@ function carregar(){
   //msg.innerHTML = `Agora são ${hora} horas.`
 
   if (hora >= 0 && hora <12){
-    msg.innerHTML = `Olá, bom-dia. Confira a playlist do momento!`
+    msg.innerHTML = `Olá, bom-dia! Já conferiu a playlist do momento?`
     //BOM DIA!
   } else if (hora >= 12 && hora < 18){
-    msg.innerHTML = `Boa-tarde. Ouça a playlist do momento!`
+    msg.innerHTML = `Boa-tarde. Ouça a nossa playlist!`
     //BOA TARDE!
   } else if (hora >=19){
-    msg.innerHTML = `Olá, boa-noite. Ouça a playlist do momento!`
+    msg.innerHTML = `Boa-noite. Ouça a playlist do momento!`
     //BOA NOITE!
   } 
   }

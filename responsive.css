@@ -4,6 +4,10 @@
     flex-direction: column;
     }
   
+  .container {
+    text-align: center;
+  }
+
   .botao{
       margin-top: 5px;
       width: 160px;
@@ -50,7 +54,7 @@
   }
   
   .pace .pace-progress {
-    background: #cc3a00;
+    background: #37c6f4;
     position: fixed;
     z-index: 2000;
     top: 0;
