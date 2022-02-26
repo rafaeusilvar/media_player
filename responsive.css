@@ -16,8 +16,8 @@
 
 
   .musica-principal{
-    background: linear-gradient(rgba(0,0,0.50),rgba(0,0,0,.50)50%), url('https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/b3590790356225.5e155c6ff2f91.jpg');
-    height:35rem;
+    background: linear-gradient(rgba(0,0,0.50),rgba(0,0,0,.10)50%), url('https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/b3590790356225.5e155c6ff2f91.jpg');
+    height:45rem;
     display: flex;
     background-size:cover;
     background-attachment: fixed;
