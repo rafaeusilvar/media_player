@@ -10,7 +10,7 @@ function carregar(){
     msg.innerHTML = `Olá, bom-dia. Já conferiu a playlist do momento?`
     //BOM DIA!
   } else if (hora >= 12 && hora < 18){
-    msg.innerHTML = `Boa-tarde, caro ouvinte. Bem-vindo a Sun Music`
+    msg.innerHTML = `Boa-tarde, Natasha Costa. Bem-vindo a Sun Music`
     //BOA TARDE!
   } else if (hora >=19){
     msg.innerHTML = `Boa-noite. Ouça a nossa playlist do momento`
