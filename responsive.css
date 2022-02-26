@@ -13,26 +13,25 @@
       width: 160px;
       height: 50px;
   }
- 
-  header nav a{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 13px;
-    text-decoration: none;
-    color: #fff;         
-    margin-left: auto;
-    margin-right: auto;
-  }
+
 
   .musica-principal{
-    font-size: 10px;
-    background: linear-gradient(rgba(0,0,0.50),rgba(0,0,0,.50)50%), url('https://images.unsplash.com/photo-1501612780327-45045538702b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
-    height:500px;
-    background-size:cover;
+    background: linear-gradient(rgba(0,0,0.50),rgba(0,0,0,.50)50%), url('https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/b3590790356225.5e155c6ff2f91.jpg');
+    height:35rem;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+    background-size:cover;
+    background-attachment: fixed;
 }
+
+.titulo{
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.reprodutor{
+  margin: 200px;
+}
+
 }
 
 @media screen and (max-width:700px){

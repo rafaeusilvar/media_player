@@ -1,252 +1,118 @@
 <!doctype html>
 <html lang="pt-Br">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="responsive.css">
-    <title>Rafilo</title>
-  </head>
-  <body onload="carregar()">
-    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
-      <symbol id="home" viewBox="0 0 16 16">
-        <path fill-rule="evenodd" d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
-        <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
-      </symbol>
-      <symbol id="speedometer2" viewBox="0 0 16 16">
-        <path d="M12 13c0 1.105-1.12 2-2.5 2S7 14.105 7 13s1.12-2 2.5-2 2.5.895 2.5 2z"/>
-        <path fill-rule="evenodd" d="M12 3v10h-1V3h1z"/>
-        <path d="M11 2.82a1 1 0 0 1 .804-.98l3-.6A1 1 0 0 1 16 2.22V4l-5 1V2.82z"/>
-        <path fill-rule="evenodd" d="M0 11.5a.5.5 0 0 1 .5-.5H4a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 .5 7H8a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 .5 3H8a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5z"/>
-      </symbol>
-      <symbol id="table" viewBox="0 0 16 16">
-        <path d="M5 3a3 3 0 0 1 6 0v5a3 3 0 0 1-6 0V3z"/>
-        <path d="M3.5 6.5A.5.5 0 0 1 4 7v1a4 4 0 0 0 8 0V7a.5.5 0 0 1 1 0v1a5 5 0 0 1-4.5 4.975V15h3a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1h3v-2.025A5 5 0 0 1 3 8V7a.5.5 0 0 1 .5-.5z"/>
-      </symbol>
-      <symbol id="people-circle" viewBox="0 0 16 16">
-        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
-        <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
-      </symbol>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="responsive.css">
+  <title>Sun Music</title>
+</head>
 
-    </svg>
-    <header>
-      <div class="px-3">
-        <div class="header">
-          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-            <img id="logo" src="imagens/logo.png" alt="" a href="#" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
-            </img>
-            <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
-              <li>
-                <a href="#" class="nav-link text-secondary">
-                  <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#home"/></svg>
-                  Início
-                </a>
-              </li>
-              <li>
-                <a href="#" class="nav-link">
-                  <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#speedometer2"/></svg>
-                  Biblioteca
-                </a>
-              </li>
-              <li>
-                <a href="#" class="nav-link">
-                  <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#table"/></svg>
-                  Podcast
-                </a>
-              </li>
-              <li>
-                <a href="#" class="nav-link">
-                  <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#people-circle"/></svg>
-                  Perfil
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </header>
+<body onload="carregar()">
+  <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+    <symbol id="home" viewBox="0 0 16 16">
+      <path fill-rule="evenodd"
+        d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z" />
+      <path fill-rule="evenodd"
+        d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z" />
+    </symbol>
+    <symbol id="speedometer2" viewBox="0 0 16 16">
+      <path d="M12 13c0 1.105-1.12 2-2.5 2S7 14.105 7 13s1.12-2 2.5-2 2.5.895 2.5 2z" />
+      <path fill-rule="evenodd" d="M12 3v10h-1V3h1z" />
+      <path d="M11 2.82a1 1 0 0 1 .804-.98l3-.6A1 1 0 0 1 16 2.22V4l-5 1V2.82z" />
+      <path fill-rule="evenodd"
+        d="M0 11.5a.5.5 0 0 1 .5-.5H4a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 .5 7H8a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 .5 3H8a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5z" />
+    </symbol>
+    <symbol id="table" viewBox="0 0 16 16">
+      <path d="M5 3a3 3 0 0 1 6 0v5a3 3 0 0 1-6 0V3z" />
+      <path
+        d="M3.5 6.5A.5.5 0 0 1 4 7v1a4 4 0 0 0 8 0V7a.5.5 0 0 1 1 0v1a5 5 0 0 1-4.5 4.975V15h3a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1h3v-2.025A5 5 0 0 1 3 8V7a.5.5 0 0 1 .5-.5z" />
+    </symbol>
+    <symbol id="people-circle" viewBox="0 0 16 16">
+      <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+      <path fill-rule="evenodd"
+        d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+    </symbol>
+
+  </svg>
+  <header>
+
+  </header>
 <main>
     <div class="musica-principal">
-      <div class="container">
-            <h3 class="titulo" id="msg">Ouça a playlist do momento!</h3>
-            <p class="descricao"></p>
-            <div class="botoes"> 
-              <a href="#"><button role="button" class="botao play-1">
-                   <i class="fas fa-play"></i>
-                      INICIAR
-                 </button></a> 
-              <a href="#"><button role="button" class="botao botao-pause-2">
-                    <i class="fas fa-pause-circle"></i>
-                      PAUSE 
-                 </button></a> 
-            </div>
+    </div>
+    <div class="container">
+        <h3 class="titulo" id="msg">Ouça a playlist do momento!</h3>
+        <p class="descricao"></p>
+        <div class="botoes">
+          <a href="#"><button role="button" class="botao play-1">
+              <i class="fas fa-play"></i>
+              INICIAR
+            </button></a>
+          <a href="#"><button role="button" class="botao botao-pause-2">
+              <i class="fas fa-pause-circle"></i>
+              PAUSE
+            </button></a>
+        </div>
+    </div>
+
+</main>
+  <!--INICIO REPRODUTOR DE MUSICA-->
+  <div class="reprodutor">
+    <img src="" class="capa-musica" alt="imagem não carregada com sucesso">
+    <div class="texto">
+      <h2>Nome da Música</h2>
+      <i>Nome do artista</i>
+    </div>
+    <div class="duracao">
+      <div class="barra">
+        <progress value="0" max="1"></progress>
+        <div class="ponto"></div>
+      </div>
+      <div class="tempo">
+        <p class="inicio">0:00</p>
+        <p class="fim">3:40</p>
       </div>
     </div>
-</main>
-
-  <div class="ouca-novamente">
-    <h2>RECOMENDADOS</h2>
-  </div>  
-      <!--Card-->
-  <div class=" cards"> 
-      <div class="card text-center" style="width: 15rem;">
-          <div class="col-md-3">
-            <img src="https://www.vagalume.com.br/justin-bieber/discografia/purpose.jpg" class="card-img-top" alt="...">
-            <img class="seg" src="https://musicas.art.br/wp-content/uploads/2019/06/Justin-Bieber-300x300.jpg"/>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">PURPOSE</h5>
-            <p class="card-text">Purpose é o quarto álbum de estúdio do cantor canadense Justin Bieber. O seu lançamento ocorreu em 13 de novembro de 2015.</p>
-            <a href="pagesPlaylist/purpose.html"><button role="button" class="btn btn-primary" id="player-card">Ouça
-            </button></a>
-          </div>
-      </div>  
-      <div class="card text-center" style="width: 15rem;">
-        <div class="col-md-3">
-          <img src="https://www.vagalume.com.br/travis-scott/discografia/astroworld.jpg" class="card-img-top" alt="...">
-          <img class="seg" src="https://media.resources.festicket.com/image/300x300/center/top/filters:quality(70)/www/artists/TravisScott_New.jpg" alt="">
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">ASTROWORLD</h5>
-            <p class="card-text">Astroworld é o terceiro álbum de estúdio do rapper norte-americano Travis Scott. Seu lançamento ocorreu em 3 de agosto de 2018.</p>
-            <a href="#" class="btn btn-primary">Indisponível</a>
-          </div>
-        </div>
-      <div class="card text-center" style="width: 15rem;">
-        <div class="col-md-3">
-        <img src="https://upload.wikimedia.org/wikipedia/pt/9/95/Futuresex.jpg" class="card-img-top" alt="...">
-          <img class="seg" src="https://jf-monteabraao.pt/img/biography/94/justin-timberlake-bio.jpeg" alt="">
-        </div>
-          <div class="card-body">
-            <h5 class="card-title">FUTURESEX LOVESOUND</h5>
-            <p class="card-text">FutureSex/LoveSounds é o segundo álbum de estúdio do artista musical estadunidense Justin Timberlake.</p>
-            <a href="/pagesPlaylist/20.html" class="btn btn-primary">Ouça</a>
-          </div>
-        </div>
-      <div class="card text-center" style="width: 15rem;">
-        <div class="col-md-3">
-          <img src="https://www.vagalume.com.br/matue/discografia/maquina-do-tempo-11.jpg" class="card-img-top" alt="...">
-          <img src="https://images.genius.com/72f86909ad64e122c2e6fdbe9cfadd7c.300x300x1.jpg" alt="" class="seg">
-        </div>
-          <div class="card-body">
-            <h5 class="card-title">MAQUINA DO TEMPO</h5>
-            <p class="card-text">Máquina do Tempo é o álbum de estreia do rapper brasileiro Matuê, lançado em 10 de setembro de 2020 pela Sony Music.</p>
-            <a href="pagesPlaylist/maquinaTempo.html" class="btn btn-primary">Ouça</a>
-          </div>
-        </div>
-      <div class="card text-center" style="width: 15rem;">
-        <div class="col-md-3">
-          <img src="http://crownnote.com/sites/default/files/styles/album_artwork__300x300_/public/imgres_0.jpg?itok=Rm86sjlZ" class="card-img-top" alt="...">
-          <img src="https://c.ststat.net/content/entimg/tour/brass-band-perform-oasis-definitely-maybe--1424658504-300x300.jpg" alt="" class="seg">
-        </div>
-          <div class="card-body">
-            <h5 class="card-title">WHAT'S THE STORY</h5>
-            <p class="card-text">(What's the Story) Morning Glory? é o segundo álbum de estúdio da banda de rock britânica Oasis.  Lançado em 2 de outubro de 1995.</p>
-            <a href="#" class="btn btn-primary">Indisponível</a>
-          </div>
-        </div>
-      <div class="card text-center" style="width: 15rem;">
-        <div class="col-md-3">
-          <img src="https://regards.com.br/wp-content/uploads/2005/09/cd-nirvana-nevermind-nirvana-nevermind-00602527779089-2660252777908-300x300.jpg" class="card-img-top" alt="...">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKqTTcOHZZW5D7Up5TCQPlVzA57tKYz-uA92Ix4tYmiRs5P4nMniFI3ZJdc9kAm-UXdFI&usqp=CAU" alt="" class="seg">
-        </div>
-          <div class="card-body">
-            <h5 class="card-title">NEVERMIND</h5>
-            <p class="card-text">Nevermind é o segundo álbum da banda grunge estadunidense Nirvana, lançado em 1991.</p>
-            <a href="pagesPlaylist/nevermind.html" class="btn btn-primary">Ouça</a>
-          </div>
-        </div>
-      <div class="card text-center" style="width: 15rem;">
-        <div class="col-md-3">
-          <img src="https://i.pinimg.com/474x/f9/ce/09/f9ce09fcb1b8d6ce477582b81372eef9--best-album-covers-band-of.jpg" class="card-img-top" alt="...">
-          <img src="https://lite-images-i.scdn.co/image/ab67706c0000da84319ca9626f48c9294699d350" alt="" class="seg">
-        </div>
-          <div class="card-body">
-            <h5 class="card-title">THE RESISTANCE</h5>
-            <p class="card-text">The Resistance é o quinto álbum da banda inglesa de rock alternativo Muse, lançado em 2009.</p>
-            <a href="#" class="btn btn-primary">Indisponível</a>
-          </div>
-        </div>
-      <div class="card text-center" style="width: 15rem;">
-        <div class="col-md-3">
-          <img src="https://img.discogs.com/67AvKTmfkpr4K5UcJK87el7mQ_g=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-9999158-1538155037-8069.jpeg.jpg" class="card-img-top" alt="...">
-          <img src="https://images.sk-static.com/images/media/profile_images/artists/556955/huge_avatar" alt="" class="seg">
-        </div>
-          <div class="card-body">
-            <h5 class="card-title">MORE LIFE</h5>
-            <p class="card-text">More Life é a sexta mixtape do rapper Drake. O artista descreve More Life como uma playlist.</p>
-            <a href="#" class="btn btn-primary">Indisponível</a>
-          </div>
-      </div>
-    <div class="card text-center" style="width: 15rem;">
-      <div class="col-md-3">
-        <img src="https://upload.wikimedia.org/wikipedia/pt/3/3f/Night_Visions_Album_Cover.jpeg" class="card-img-top" alt="...">
-        <img src="https://media.resources.festicket.com/image/300x300/center/top/filters:quality(70)/www/artists/ImagineDragons_New2.jpg" alt="" class="seg">
-      </div>
-        <div class="card-body">
-          <h5 class="card-title">NIGHT VISIONS</h5>
-          <p class="card-text">Night Visions é o álbum de estreia da banda de rock alternativo Imagine Dragons.</p>
-          <a href="#" class="btn btn-primary">Indisponível</a>
-        </div>
-      </div>
-    <div class="card text-center" style="width: 15rem;">
-      <div class="col-md-3">
-        <img src="https://images.suamusica.com.br/PgDi4hOeBlTplulI6aw_fBcCyLI=/300x300/27863869/2465151/cd_cover.jpg" class="card-img-top" alt="...">
-        <img src="https://remezcla.com/wp-content/uploads/2020/10/Djonga-Daniel-Assis-300x300.jpg" alt="" class="seg">
-      </div>
-        <div class="card-body">
-          <h5 class="card-title">DJONGA</h5>
-          <p class="card-text">O Menino Que Queria ser Deus é o álbum do rapper brasileiro Djonga. Lançado dia 13 de Março de 2018.</p>
-          <a href="/pagesPlaylist/omenino.html" class="btn btn-primary">Ouça</a>
-        </div>
-        </div>
-  </div>  
-    <!--INICIO REPRODUTOR DE MUSICA-->
-    <div class="reprodutor">
-      <img src="" class="capa-musica" alt="imagem não carregada com sucesso">
-      <div class="texto">
-            <h2>Nome da Música</h2>
-            <i>Nome do artista</i>
-      </div>
-      <div class="duracao">
-          <div class="barra">
-              <progress value="0" max="1"></progress>
-              <div class="ponto"></div>
-          </div>
-          <div class="tempo">
-                <p class="inicio">0:00</p>
-                <p class="fim">3:40</p>
-          </div>
-      </div>
-      <div class="player">
-        <i class="fas fa-step-backward setas anterior"></i>
-        <i class="fas fa-play-circle botao-play"></i>
-        <i class="fas fa-pause-circle botao-pause"></i>
-        <i class="fas fa-step-forward setas proxima"></i>
-      </div>
-      <audio src="musicas/2_5190432513671039369.mp3"></audio>
-      <script src="script.js"></script>
+    <div class="player">
+      <i class="fas fa-step-backward setas anterior"></i>
+      <i class="fas fa-play-circle botao-play"></i>
+      <i class="fas fa-pause-circle botao-pause"></i>
+      <i class="fas fa-step-forward setas proxima"></i>
+    </div>
+    <audio src="musicas/2_5190432513671039369.mp3"></audio>
+    <script src="script.js"></script>
   </div>
-    <!--FIM REPRODUTOR-->
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-      <p class="col-md-4 mb-0 text-muted">&copy; 2021 Company, Inc</p>
-  
-      <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
-        <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
-      </a>
-  
-      <ul class="nav col-md-4 justify-content-end">
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Início</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Recursos</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Quem somos</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Assinatura</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Suporte</a></li>
-      </ul>
-    </footer>    
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+  <!--FIM REPRODUTOR-->
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <p class="col-md-4 mb-0 text-muted">&copy; 2021 Company, Inc</p>
+
+    <a href="/"
+      class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+      <svg class="bi me-2" width="40" height="32">
+        <use xlink:href="#bootstrap" />
+      </svg>
+    </a>
+
+    <ul class="nav col-md-4 justify-content-end">
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Início</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Recursos</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Quem somos</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Assinatura</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Suporte</a></li>
+    </ul>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
   <script type="text/javascript" src="pace.min.js"></script>
-  </body>
+</body>
+
 </html>

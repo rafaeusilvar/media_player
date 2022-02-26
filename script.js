@@ -7,13 +7,13 @@ function carregar(){
   //msg.innerHTML = `Agora são ${hora} horas.`
 
   if (hora >= 0 && hora <12){
-    msg.innerHTML = `Olá, bom-dia! Já conferiu a playlist do momento?`
+    msg.innerHTML = `Olá, bom-dia. Já conferiu a playlist do momento?`
     //BOM DIA!
   } else if (hora >= 12 && hora < 18){
-    msg.innerHTML = `Boa-tarde. Ouça a nossa playlist!`
+    msg.innerHTML = `Boa-tarde, caro ouvinte. Bem-vindo a Sun Music`
     //BOA TARDE!
   } else if (hora >=19){
-    msg.innerHTML = `Boa-noite. Ouça a playlist do momento!`
+    msg.innerHTML = `Boa-noite. Ouça a nossa playlist do momento`
     //BOA NOITE!
   } 
   }
@@ -119,3 +119,5 @@ function segundosParaMinutos(segundos){
 }
 
 /*window.alert ('Olá, mundo!')*/ 
+
+
