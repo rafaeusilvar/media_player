@@ -13,7 +13,7 @@ function carregar(){
     msg.innerHTML = `Boa-tarde, Natasha Costa. Bem-vindo a Sun Music`
     //BOA TARDE!
   } else if (hora >=19){
-    msg.innerHTML = `Boa-noite. Ouça a nossa playlist do momento`
+    msg.innerHTML = `Boa-noite, Natasha. Ouça a playlist do momento`
     //BOA NOITE!
   } 
   }
