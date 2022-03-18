@@ -10,10 +10,10 @@
 <br>  
   <p style="font-size:2rem;">HTML5, CSS, JavaScript e Bootstrap</p>
     <ul>
-      <li>oi</li>
-      <li>ola</li>
-      <li>kk</li>
-      <li>aa</li>
+      <li>HTML5</li>
+      <li>CSS</li>
+      <li>JAVASCRIPT</li>
+      <li>BOOTSTRAP</li>
     </ul>
 <br>
 
