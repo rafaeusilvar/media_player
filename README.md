@@ -24,7 +24,19 @@
     Manipulação de CSS para tornar a aplicação responsiva e adicionando um estilo na página.
   </p>
 </div>
+    <br>
 <div>
 <h3>✅ Status do Projeto</h3>
-  <p style="font-size:2rem;">Status: Concluído</p>
+  <p style="font-size:2rem;">Concluído</p>
+</div>
+    <br>
+<div>
+  <h3>✅ Recursos</h3>
+  <ul>
+    <li>Reproduzir as faixas de músicas</li>
+    <li>Pausar as faixas de músicas</li>
+    <li>Avançar as faixas de músicas</li>
+    <li>Voltar as faixas de músicas</li>
+  </ul>
+  <p style"font-size:2rem;"></p>
 </div>
