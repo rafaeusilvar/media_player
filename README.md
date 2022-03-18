@@ -4,7 +4,7 @@ Aplicação Web interativa para reprodução de músicas, semelhante a uma plata
 <br>
 <h1>Tecnologias<h1>
 <br>  
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+<p>Esse projeto foi desenvolvido com as seguintes tecnologias:</p>
 <br>  
 HTML5, CSS, JavaScript e Bootstrap
 <br>
