@@ -1,12 +1,13 @@
 # 👨‍💻 Media Player
 <br>
   <p>🎧Aplicação Web interativa para reprodução de músicas, semelhante a uma plataforma streaming.</p>
-  <a href="http://translate.google.com.br/?hl=pt-BR&sl=pt&tl=en&text=foguete&op=translate">OI</a><br>
+    <a target="_blank" href="https://sun-music.netlify.app">Confira</a>
+  <br>
 <div>
   <h1>🚀Tecnologias<h1>
 </div>
-<br>  
-  <p>Esse projeto foi desenvolvido com as seguintes tecnologias:</p>
+  <br>  
+    <p>Esse projeto foi desenvolvido com as seguintes tecnologias:</p>
 <br>  
   <p style="font-size:2rem;">HTML5, CSS, JavaScript e Bootstrap</p>
     <ul>
