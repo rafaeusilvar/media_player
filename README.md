@@ -1,9 +1,9 @@
-# Media Player
+# 👨‍💻 Media Player
 <br>
-  Aplicação Web interativa para reprodução de músicas, semelhante a uma plataforma streaming.
+  <p>🎧Aplicação Web interativa para reprodução de músicas, semelhante a uma plataforma streaming.</p>
 <br>
 <div>
-  <h1>Tecnologias<h1>
+  <h1>🚀Tecnologias<h1>
 </div>
 <br>  
   <p>Esse projeto foi desenvolvido com as seguintes tecnologias:</p>
