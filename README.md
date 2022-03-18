@@ -8,7 +8,7 @@
 </div>
   <br>  
     <p>Esse projeto foi desenvolvido com as seguintes tecnologias:</p>
-<br>  
+  <br>  
   <p style="font-size:2rem;">HTML5, CSS, JavaScript e Bootstrap</p>
     <ul>
       <li>HTML5</li>
@@ -16,21 +16,8 @@
       <li>JAVASCRIPT</li>
       <li>BOOTSTRAP</li>
     </ul>
-<br>
-<div>
-  <h3>🦾 O que aprendi com este projeto</h3>
-  <p style="font-size:2rem;">Funcionamento de determinados componentes que necessitam do uso da linguagem JavaScript para se tornarem interativos.<br>
-    Desenvolvimento de funções em JavaScript para manipular os dados das músicas e apresentar ao usúario.<br>
-    Manipulação de CSS para tornar a aplicação responsiva e adicionando um estilo na página.
-  </p>
-</div>
-    <br>
-<div>
-<h3>✅ Status do Projeto</h3>
-  <p style="font-size:2rem;">Concluído</p>
-</div>
-    <br>
-<div>
+  <br>
+    <div>
   <h3>✅ Recursos</h3>
   <ul>
     <li>Reproduzir as faixas de músicas</li>
@@ -40,3 +27,17 @@
   </ul>
   <p style"font-size:2rem;"></p>
 </div>
+    <br>
+<div>
+  <h3>🦾 O que aprendi com este projeto</h3>
+  <p style="font-size:2rem;">Funcionamento de determinados componentes que necessitam do uso da linguagem JavaScript para se tornarem interativos.<br>
+    Desenvolvimento de funções em JavaScript para manipular os dados das músicas e apresentar ao usúario.<br>
+    Manipulação de CSS para tornar a aplicação responsiva e adicionando um estilo na página.
+  </p>
+</div>
+    <br>
+<div>
+  <h3>✅ Status do Projeto</h3>
+  <p style="font-size:2rem;">Concluído</p>
+</div>
+    <br>
