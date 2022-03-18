@@ -1,6 +1,7 @@
 # 👨‍💻 Media Player
 <br>
   <p>🎧Aplicação Web interativa para reprodução de músicas, semelhante a uma plataforma streaming.</p>
+  <a href"https://translate.google.com.br/?hl=pt-BR&sl=pt&tl=en&text=foguete&op=translate">oi</a>
 <br>
 <div>
   <h1>🚀Tecnologias<h1>
