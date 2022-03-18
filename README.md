@@ -9,6 +9,12 @@
   <p>Esse projeto foi desenvolvido com as seguintes tecnologias:</p>
 <br>  
   <p style="font-size:2rem;">HTML5, CSS, JavaScript e Bootstrap</p>
+    <ul>
+      <li>oi</li>
+      <li>ola</li>
+      <li>kk</li>
+      <li>aa</li>
+    </ul>
 <br>
 
 
