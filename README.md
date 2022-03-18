@@ -24,3 +24,7 @@
     Manipulação de CSS para tornar a aplicação responsiva e adicionando um estilo na página.
   </p>
 </div>
+<div>
+<h3>✅ Status do Projeto</h3>
+  <p style="font-size:2rem;">Status: Concluído</p>
+</div>
